@@ -43,7 +43,6 @@ li {
   width: 100%;
   margin: 0 auto;
   max-width: 380px;
-  border: 1px solid #7f8cff;
   background-color: var(--container-bg);
 }
 
@@ -95,8 +94,8 @@ header {
   color: #172b4d;
 }
 
-.small-container > h1 {
-  font-size: 2.5em;
+h1 {
+  font-size: 2.8em;
   margin-top: 6.5rem;
   font-weight: 700;
   line-height: 3.6rem;
@@ -174,7 +173,7 @@ header {
 }
 
 .personal-info {
-  margin-top: 4rem;
+  margin-top: 2.8rem;
 }
 
 .card-item {
@@ -245,7 +244,7 @@ header {
   background-color: var(--light-text-color);
 }
 
-hr.hr-line {
+.hr-line {
   border-top: 1px solid #dfe1e6;
   margin-inline-start: 0;
   width: 325px;
@@ -275,6 +274,7 @@ hr.hr-line {
   display: flex;
   padding: 0;
   gap: 12px;
+  margin-bottom: 3em;
 }
 
 .img1 {
@@ -300,8 +300,8 @@ hr.hr-line {
 .more-button,
 .check-button {
   border: 1px solid #6070ff;
-  border-radius: 10px;
-  width: 124px;
+  border-radius: 8px;
+  width: 100px;
   height: 48px;
   padding: 13px;
   gap: 10px;
@@ -313,29 +313,34 @@ hr.hr-line {
   letter-spacing: 0.03em;
   color: #396df2;
   text-align: center;
-  transition: width 2s, height 4s;
+  cursor: pointer;
+  margin-top: 10em;
 }
 
 .more-button-1 {
   border: 1px solid #6070ff;
-  border-radius: 10px;
-  width: 128px;
-  height: 48px;
-  padding: 13px;
+  border-radius: 8px;
+  width: 118px;
+  height: 44px;
+  padding: 13px 13px;
   gap: 10px;
-  background-color: var(--button-color);
+  color: var(--button-color);
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: var(--tag-background-color);
+  background-color: var(--main-bg-color);
   text-align: center;
+  margin-top: 10em;
 }
 
-.check-button {
-  width: 170px;
+.more-button:hover,
+.check-button:hover,
+.more-button-1:hover {
+  background-color: #6070ff;
+  color: white;
 }
 
 .about > h1 {
