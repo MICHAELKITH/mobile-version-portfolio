@@ -478,12 +478,3 @@ button:disabled {
 .social-link:hover {
   color: #5e6c84;
 }
-
-.footer-line {
-  background: #0d151e;
-  border-radius: 10px;
-  position: absolute;
-  width: 134px;
-  height: 5px;
-  bottom: 8px;
-}
